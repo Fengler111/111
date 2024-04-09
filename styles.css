@@ -1,0 +1,41 @@
+body, html {  
+    height: 100%;  
+    margin: 0;  
+}  
+  
+.header-container {  
+    display: flex;  
+    flex-direction: column;  
+    justify-content: center;  
+    align-items: center;  
+    height: 20vh; /*You can adjust this height as needed*/ 
+}  
+  
+h1 {  
+    font-size: 20px; /*Set h1 font size*/ 
+    margin: 0; /*Remove default margins*/ 
+}  
+  
+h2 {  
+    font-size: 24px; /*Set h2 font size greater than h1*/ 
+    border: 1px solid black; /*Add a border to h2*/ 
+    padding: 10px; /*Add inner margin*/ 
+    margin: 10px 0 0 0; /*Add top margin to separate from h1, remove other margins*/
+}  
+  
+.image-container {  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    height: 60vh; /*You can adjust this height as needed*/
+}  
+  
+#centered-image {  
+    max-width: 100%;  
+    max-height: 100%; /*Ensure that the image does not exceed the container*/  
+}  
+  
+.button-container {  
+    text-align: center; /*Horizontal center button*/
+    margin-top: 20px; /*Adjust the spacing between the button and the image as needed*/
+}
